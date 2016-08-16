@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/groovy-source-tutorials.iml" filepath="$PROJECT_DIR$/.idea/modules/groovy-source-tutorials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/groovy-source-tutorials_main.iml" filepath="$PROJECT_DIR$/.idea/modules/groovy-source-tutorials_main.iml" group="groovy-source-tutorials" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/groovy-source-tutorials_test.iml" filepath="$PROJECT_DIR$/.idea/modules/groovy-source-tutorials_test.iml" group="groovy-source-tutorials" />
+    </modules>
+  </component>
+</project>
