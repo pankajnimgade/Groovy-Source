@@ -20,10 +20,10 @@ class AssertCheck {
      * Exception in thread "main" Assertion failed:
 
      assert a == b+b
-     | |  |||
-     9 |  5|5
-     |   10
-     false
+            | |  |||
+            9 |  5|5
+            |   10
+            false
 
      at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:398)
      at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:648)
