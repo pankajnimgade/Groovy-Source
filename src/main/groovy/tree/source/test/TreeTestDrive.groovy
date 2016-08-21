@@ -10,7 +10,7 @@ class TreeTestDrive {
         def tree = new Tree();
         tree.setTitle('some # Tree Name')
 
-        assert tree.getTitle() == 'some # Tree Name'
+        assert tree.title == 'some # Tree Name'
         println(tree.getTitle())
 
     }
