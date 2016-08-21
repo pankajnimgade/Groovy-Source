@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb0dc95-5459-4055-a46a-1689f8b7d78c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBook.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBookTestDrive.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/book/source/test/Book.class" afterPath="$PROJECT_DIR$/build/classes/main/book/source/test/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/book/source/test/BookTestDrive.class" afterPath="$PROJECT_DIR$/build/classes/main/book/source/test/BookTestDrive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/first/source/test/AssertCheck.class" afterPath="$PROJECT_DIR$/build/classes/main/first/source/test/AssertCheck.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/g/string/source/GStringTestDrive.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/tree/source/test/TreeTestDrive.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/tree/source/test/TreeTestDrive.groovy" />
     </list>
     <ignored path="Groovy-Source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,21 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FixedBook.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBook.groovy">
+      <file leaf-file-name="GStringTestDrive.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/g/string/source/GStringTestDrive.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FixedBookTestDrive.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBookTestDrive.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -490,6 +475,7 @@
         <option value="$PROJECT_DIR$/src/main/groovy/immutable/source/test/Fixedbook.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBook.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBookTestDrive.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/g/string/source/GStringTestDrive.groovy" />
       </list>
     </option>
   </component>
@@ -680,6 +666,32 @@
               <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-source-tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groovy-Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -726,27 +738,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FixedBookTestDrive">
-    <configuration default="false" name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="first.test.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="first.test.source.TestClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="groovy-source-tutorials_main" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GStringTestDrive">
     <configuration default="false" name="AssertCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -815,6 +807,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="immutable.source.test.FixedBookTestDrive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="groovy-source-tutorials_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GStringTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="g.string.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="g.string.source.GStringTestDrive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1136,19 +1148,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AssertCheck" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BookTestDrive" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TreeTestDrive" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FixedBookTestDrive" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AssertCheck" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BookTestDrive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TreeTestDrive" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FixedBookTestDrive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GStringTestDrive" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FixedBookTestDrive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreeTestDrive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BookTestDrive" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AssertCheck" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GStringTestDrive" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FixedBookTestDrive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TreeTestDrive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BookTestDrive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AssertCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -1183,7 +1195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471593440577</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="checked immutable groovy class using annotations">
+      <created>1471771402690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1471771402690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1250,7 +1269,8 @@
     <MESSAGE value="Book class added" />
     <MESSAGE value="TestDrive class added" />
     <MESSAGE value="checked groovy beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="checked groovy beans" />
+    <MESSAGE value="checked immutable groovy class using annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked immutable groovy class using annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1261,13 +1281,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1612,8 +1625,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/immutable/source/test/FixedBookTestDrive.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/g/string/source/GStringTestDrive.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
